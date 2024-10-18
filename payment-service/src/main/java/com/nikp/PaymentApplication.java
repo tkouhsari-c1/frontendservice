@@ -56,7 +56,7 @@ public class PaymentApplication {
     @Bean
     public PoolingHttpClientConnectionManager poolingHttpClientConnectionManager() {
         PoolingHttpClientConnectionManager result = new PoolingHttpClientConnectionManager();
-        result.setMaxTotal(20);
+        result.setMaxTotal(25);
         return result;
     }
 
